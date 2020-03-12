@@ -8,7 +8,9 @@ class Post
     end
 
     def author_name
-        author.name 
+        if @author 
+            @author.name 
+        end
     end
 
     def self.all
