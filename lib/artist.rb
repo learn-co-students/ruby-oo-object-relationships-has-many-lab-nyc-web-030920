@@ -1,3 +1,4 @@
+require 'pry'
 class Artist
   attr_accessor :name
 
@@ -29,3 +30,5 @@ class Artist
     Song.all.count
   end
 end
+
+Artist.all 
